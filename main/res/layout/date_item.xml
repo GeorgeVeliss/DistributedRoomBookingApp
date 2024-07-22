@@ -1,0 +1,19 @@
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="2024-05-05"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:id="@+id/date"/>
+
+<!--    <Space-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="20dp"/>-->
+
+</androidx.appcompat.widget.LinearLayoutCompat>

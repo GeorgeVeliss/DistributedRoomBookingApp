@@ -1,0 +1,59 @@
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="Room Name: "
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:id="@+id/roomName"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Room Rating: "
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:id="@+id/roomRating"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Room Area: "
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:id="@+id/roomArea"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Maximum guests: "
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:id="@+id/roomPeople"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Room Price: "
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:id="@+id/roomPrice"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Room Manager: "
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:id="@+id/roomManager"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
